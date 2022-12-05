@@ -1,0 +1,41 @@
+body{
+    background: linear-gradient(#00ff44 50%,  #008cff 75%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+}
+
+#timer{
+    float: right;
+    margin-right: 100px;
+}
+#score{
+  margin-left: 70px;
+}
+#show_sketch{
+    float: right;
+    
+}
+#task{
+    color: red;
+}
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px; 
+    animation-iteration-count: infinite;
+    
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px grey;}
+  to {box-shadow: 1px 1px 38px white;}
+
+}
+
+
+p
+  {
+    padding-top:10px;}
